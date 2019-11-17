@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.courtcase">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditLowyerProfileActivity"></activity>
+        <activity android:name=".PickADateActivity" />
+        <activity android:name=".AdmincasesListViewActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".ViewMyProfileLawyerActivity" />
+        <activity android:name=".DashboardOfLowyerActivity" />
+        <activity android:name=".EditClientProfileActivity" />
+        <activity android:name=".DashBoardActivity" />
+        <activity android:name=".AssignedCaseListActivity" />
+        <activity android:name=".YourCasesActivity" />
+        <activity android:name=".LawyerListProfileActivity" />
+        <activity android:name=".viewclientprofile" />
+        <activity android:name=".viewlawyerprofile" />
+        <activity android:name=".viewcase" />
+        <activity android:name=".profile" />
+        <activity android:name=".addcase" />
+        <activity android:name=".signin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

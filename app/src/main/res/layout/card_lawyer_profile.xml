@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardMaxElevation="5dp"
+    card_view:cardBackgroundColor="@color/colorAccent"
+    android:layout_margin="13dp">
+
+    <RelativeLayout
+        android:layout_width="391dp"
+        android:gravity="center"
+        android:layout_height="215dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageview"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@color/colorPrimary"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="6dp"
+            android:text="name:"
+            android:textSize="27sp"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginStart="20dp"
+            android:textSize="27sp"
+            android:layout_marginLeft="4dp"
+            android:text="age:"
+            android:textColor="#FFF"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            />
+        <TextView
+            android:id="@+id/expr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/age"
+            android:layout_marginStart="20dp"
+            android:textSize="27sp"
+            android:layout_marginLeft="4dp"
+            android:text="Experience:"
+            android:textColor="#FFF"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            />
+        <TextView
+            android:id="@+id/successRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/expr"
+            android:layout_marginStart="20dp"
+            android:textSize="27sp"
+            android:layout_marginLeft="4dp"
+            android:text="success rate:"
+            android:textColor="#FFF"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            />
+        <TextView
+            android:id="@+id/fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/successRate"
+            android:layout_marginStart="20dp"
+            android:textSize="27sp"
+            android:layout_marginLeft="4dp"
+            android:text="Fee:"
+            android:textColor="#FFF"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
